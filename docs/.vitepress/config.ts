@@ -7,10 +7,12 @@ export default defineConfig({
   base: '/vue-forms/', //  The default path during deployment / secondary address / base can be used/,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/mylogo.png',
+    siteTitle: 'Vue-Form',
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Tutorial', link: '/tuto/introduction' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }      
+      { text: 'ecanquiz', link: 'https://ecanquiz.github.io/' }      
     ],
     sidebar: [{
         text: 'Tutorial',        
@@ -54,7 +56,7 @@ export default defineConfig({
       }
     ],    
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CaribesTIC/vue-forms' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/vue-forms' }
     ]
   }
 })
