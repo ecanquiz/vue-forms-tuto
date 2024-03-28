@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Vue-Form',
   description: 'Vue Form.',
-  base: '/vue-forms/', //  The default path during deployment / secondary address / base can be used/,
+  base: '/vue-forms-tuto/', //  The default path during deployment / secondary address / base can be used/,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/mylogo.png',
@@ -56,7 +56,7 @@ export default defineConfig({
       }
     ],    
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ecanquiz/vue-forms' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/vue-forms-tuto' }
     ]
   }
 })
